@@ -1,0 +1,326 @@
+[
+  {
+    "id": 1,
+    "video_url": "https://www.youtube.com/watch?v=dmNC9VZNREw",
+    "textos": [
+      "La programación orientada a objetos (POO) es un paradigma que organiza el software usando objetos y clases.",
+      "En HTML podemos preparar la estructura para que JavaScript implemente POO en las interacciones."
+    ],
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el paradigma que organiza software con objetos y clases?",
+        "respuesta": "programación orientada a objetos"
+      },
+      {
+        "pregunta": "¿En qué lenguaje web se puede aplicar POO para interacciones?",
+        "respuesta": "javascript"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "video_url": "https://www.youtube.com/watch?v=10GHKjgQIR0",
+    "textos": [
+      "HTML es un lenguaje de marcado que estructura contenido en la web usando etiquetas.",
+      "Cada etiqueta HTML define una parte del contenido que puede ser manipulado con POO en JavaScript."
+    ],
+    "preguntas": [
+      {
+        "pregunta": "¿Qué lenguaje estructura contenido en la web?",
+        "respuesta": "html"
+      },
+      {
+        "pregunta": "¿Qué usa HTML para definir partes del contenido?",
+        "respuesta": "etiquetas"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "video_url": "https://www.youtube.com/watch?v=8cSo0ijtkzU",
+    "textos": [
+      "CSS se usa para dar estilo y diseño a las páginas web, controlando colores, tamaños y posiciones.",
+      "Aunque CSS no usa POO directamente, su organización modular facilita la mantenibilidad."
+    ],
+    "preguntas": [
+      {
+        "pregunta": "¿Qué lenguaje se usa para dar estilo a páginas web?",
+        "respuesta": "css"
+      },
+      {
+        "pregunta": "¿CSS controla colores y qué más?",
+        "respuesta": "tamaños"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "video_url": "https://www.youtube.com/watch?v=riZbwRFMFuw",
+    "textos": [
+      "JavaScript permite programar la lógica y comportamiento de páginas web de forma dinámica.",
+      "En JavaScript, podemos crear clases y objetos para aplicar POO efectivamente."
+    ],
+    "preguntas": [
+      {
+        "pregunta": "¿Qué lenguaje añade lógica y comportamiento a la web?",
+        "respuesta": "javascript"
+      },
+      {
+        "pregunta": "¿Qué concepto permite crear en JS para aplicar POO?",
+        "respuesta": "clases"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "video_url": "https://www.youtube.com/watch?v=SI7O81GMG2A&t=23s",
+    "textos": [
+      "Una clase es una plantilla para crear objetos con propiedades y métodos.",
+      "Los objetos son instancias de clases y representan entidades concretas en la aplicación."
+    ],
+    "preguntas": [
+      {
+        "pregunta": "¿Qué es una plantilla para crear objetos?",
+        "respuesta": "clase"
+      },
+      {
+        "pregunta": "¿Cómo se llaman las entidades creadas a partir de clases?",
+        "respuesta": "objetos"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "video_url": "https://www.youtube.com/watch?v=4pnG1h2-fC8",
+    "textos": [
+      "La encapsulación protege los datos internos de un objeto y expone solo lo necesario.",
+      "Esto mejora la seguridad y reduce errores al limitar el acceso directo a los datos."
+    ],
+    "preguntas": [
+      {
+        "pregunta": "¿Qué principio protege los datos internos de un objeto?",
+        "respuesta": "encapsulación"
+      },
+      {
+        "pregunta": "¿Qué mejora la encapsulación al limitar acceso a datos?",
+        "respuesta": "seguridad"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "video_url": "https://www.youtube.com/watch?v=2hYhpRZFuns",
+    "textos": [
+      "La herencia permite que una clase derive de otra heredando propiedades y métodos.",
+      "Esto facilita la reutilización de código y la creación de jerarquías."
+    ],
+    "preguntas": [
+      {
+        "pregunta": "¿Qué permite que una clase derive de otra?",
+        "respuesta": "herencia"
+      },
+      {
+        "pregunta": "¿Qué facilita la herencia en el código?",
+        "respuesta": "reutilización"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "video_url": "https://www.youtube.com/watch?v=2jX22t4Bh4k",
+    "textos": [
+      "El polimorfismo permite que diferentes clases implementen métodos con el mismo nombre.",
+      "Esto mejora la flexibilidad y la extensión del código."
+    ],
+    "preguntas": [
+      {
+        "pregunta": "¿Qué principio permite métodos con el mismo nombre en distintas clases?",
+        "respuesta": "polimorfismo"
+      },
+      {
+        "pregunta": "¿Qué mejora el polimorfismo en el código?",
+        "respuesta": "flexibilidad"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "video_url": "https://www.youtube.com/watch?v=pXX3c8BloY0",
+    "textos": [
+      "Los métodos son funciones dentro de una clase que definen comportamientos.",
+      "Los atributos son variables dentro de una clase que almacenan datos del objeto."
+    ],
+    "preguntas": [
+      {
+        "pregunta": "¿Cómo se llaman las funciones dentro de una clase?",
+        "respuesta": "métodos"
+      },
+      {
+        "pregunta": "¿Cómo se llaman las variables dentro de una clase?",
+        "respuesta": "atributos"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "video_url": "https://www.youtube.com/watch?v=BlbiSjCQHys",
+    "textos": [
+      "En JavaScript, se usa la palabra reservada 'class' para definir una clase.",
+      "El constructor es un método especial que se llama al crear un objeto."
+    ],
+    "preguntas": [
+      {
+        "pregunta": "¿Qué palabra reservada define una clase en JS?",
+        "respuesta": "class"
+      },
+      {
+        "pregunta": "¿Qué método se llama al crear un objeto?",
+        "respuesta": "constructor"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "video_url": "https://www.youtube.com/watch?v=fdfXkiuVHp4",
+    "textos": [
+      "Los objetos pueden interactuar entre sí mediante métodos.",
+      "Esto permite crear sistemas complejos con componentes interconectados."
+    ],
+    "preguntas": [
+      {
+        "pregunta": "¿Cómo interactúan los objetos entre sí?",
+        "respuesta": "métodos"
+      },
+      {
+        "pregunta": "¿Qué permiten crear objetos interconectados?",
+        "respuesta": "sistemas complejos"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "video_url": "https://www.youtube.com/watch?v=hfwtzjOhvKk",
+    "textos": [
+      "Las interfaces definen contratos que las clases deben cumplir.",
+      "Esto asegura que las clases implementen ciertos métodos obligatorios."
+    ],
+    "preguntas": [
+      {
+        "pregunta": "¿Qué define contratos para clases?",
+        "respuesta": "interfaces"
+      },
+      {
+        "pregunta": "¿Qué aseguran las interfaces en las clases?",
+        "respuesta": "implementación"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "video_url": "https://www.youtube.com/watch?v=BXDg2eB6fFA",
+    "textos": [
+      "Los patrones de diseño son soluciones comunes para problemas recurrentes.",
+      "Ejemplos incluyen Singleton, Observador y Factoría."
+    ],
+    "preguntas": [
+      {
+        "pregunta": "¿Cómo se llaman las soluciones comunes a problemas en POO?",
+        "respuesta": "patrones de diseño"
+      },
+      {
+        "pregunta": "Nombra uno de los patrones comunes.",
+        "respuesta": "singleton"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "video_url": "https://www.youtube.com/watch?v=g1shhx5Nvv8",
+    "textos": [
+      "El principio de responsabilidad única establece que una clase debe tener una única razón para cambiar.",
+      "Esto mejora la claridad y facilita el mantenimiento."
+    ],
+    "preguntas": [
+      {
+        "pregunta": "¿Qué principio dice que una clase debe tener una sola razón para cambiar?",
+        "respuesta": "responsabilidad única"
+      },
+      {
+        "pregunta": "¿Qué mejora este principio?",
+        "respuesta": "mantenimiento"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "video_url": "https://www.youtube.com/watch?v=I4o7fvSQvBA",
+    "textos": [
+      "La abstracción oculta detalles complejos y muestra solo lo esencial.",
+      "Esto facilita el uso y comprensión de objetos."
+    ],
+    "preguntas": [
+      {
+        "pregunta": "¿Qué principio oculta detalles complejos?",
+        "respuesta": "abstracción"
+      },
+      {
+        "pregunta": "¿Qué facilita la abstracción?",
+        "respuesta": "comprensión"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "video_url": "https://www.youtube.com/watch?v=5jtvVJ3YRjA",
+    "textos": [
+      "El acoplamiento bajo mejora la independencia entre clases.",
+      "El alto acoplamiento dificulta los cambios y la reutilización."
+    ],
+    "preguntas": [
+      {
+        "pregunta": "¿Qué acoplamiento mejora la independencia entre clases?",
+        "respuesta": "bajo"
+      },
+      {
+        "pregunta": "¿Qué dificulta el alto acoplamiento?",
+        "respuesta": "reutilización"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "video_url": "https://www.youtube.com/watch?v=okL_O0jpQYQ",
+    "textos": [
+      "La cohesión se refiere a lo bien que las responsabilidades de una clase están relacionadas.",
+      "Alta cohesión significa que una clase tiene responsabilidades bien definidas y relacionadas."
+    ],
+    "preguntas": [
+      {
+        "pregunta": "¿Qué indica que las responsabilidades de una clase estén bien relacionadas?",
+        "respuesta": "cohesión"
+      },
+      {
+        "pregunta": "¿Qué significa alta cohesión?",
+        "respuesta": "responsabilidades relacionadas"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "video_url": "https://www.youtube.com/watch?v=9t9P9KZCmtU",
+    "textos": [
+      "Integrar POO con HTML, CSS y JavaScript permite crear aplicaciones web robustas y escalables.",
+      "Este conocimiento es clave para desarrolladores web modernos."
+    ],
+    "preguntas": [
+      {
+        "pregunta": "¿Qué permite crear POO junto con HTML, CSS y JavaScript?",
+        "respuesta": "aplicaciones web robustas"
+      },
+      {
+        "pregunta": "¿Para quién es clave este conocimiento?",
+        "respuesta": "desarrolladores web"
+      }
+    ]
+  }
+]
