@@ -53,7 +53,7 @@ def procesar_entrada_usuario(usuario_id, entrada):
                 progreso["etapa"] = "inicio"
                 progreso["indice_pregunta"] = 0
                 guardar_json(ruta_progreso(usuario_id), progreso)
-                return "✅ ¡Muy bien! Has terminado este módulo. Escribe 'siguiente modulo' para continuar."
+                return "✅ ¡Muy bien! Has terminado este módulo. Escribe 'empezar' para continuar."
             else:
                 progreso["indice_pregunta"] = i
                 guardar_json(ruta_progreso(usuario_id), progreso)
