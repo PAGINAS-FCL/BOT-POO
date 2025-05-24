@@ -2,7 +2,7 @@ import httpx
 from fastapi.responses import JSONResponse
 from servicios.gestor_modulos import procesar_entrada_usuario
 
-TOKEN_BOT = "7835514917:AAG0InbvhNg6c21gtm5QvVEd1KzMy9qFduE"
+TOKEN_BOT = "7242930029:AAFH_MrBB4UFVwDSJH6Nagqy7E75JkjD5QE"
 API_URL = f"https://api.telegram.org/bot{TOKEN_BOT}"
 
 async def enviar_mensaje(chat_id, texto):
