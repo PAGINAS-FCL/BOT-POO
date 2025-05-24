@@ -17,10 +17,7 @@ def inicializar_usuario(usuario_id):
 
 def procesar_entrada_usuario(usuario_id, entrada):
     ruta = ruta_progreso(usuario_id)
-
-    # Si el usuario es nuevo, dar mensaje de bienvenida
     if not os.path.exists(ruta):
-        # Creamos el progreso inicial
         guardar_json(ruta, {
             "modulo": 0,
             "etapa": "inicio",
@@ -41,8 +38,6 @@ def procesar_entrada_usuario(usuario_id, entrada):
     modulo_actual = modulos[indice_modulo]
     etapa = progreso["etapa"]
     entrada = entrada.strip().lower()
-
-    # Etapa: INICIO
     if etapa == "inicio":
         if entrada == "empezar":
             progreso["etapa"] = "textos"
@@ -55,8 +50,6 @@ def procesar_entrada_usuario(usuario_id, entrada):
             )
         else:
             return "❌ Para comenzar, debes escribir la palabra: **empezar**"
-
-    # Etapa: TEXTOS
     elif etapa == "textos":
         if entrada == "seguir":
             progreso["etapa"] = "pregunta"
@@ -64,8 +57,6 @@ def procesar_entrada_usuario(usuario_id, entrada):
             return modulo_actual["preguntas"][0]["pregunta"]
         else:
             return "❌ Escribe la palabra **'seguir'** para continuar."
-
-    # Etapa: PREGUNTAS
     elif etapa == "pregunta":
         i = progreso["indice_pregunta"]
         respuesta_correcta = modulo_actual["preguntas"][i]["respuesta"].strip().lower()
