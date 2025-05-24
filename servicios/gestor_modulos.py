@@ -16,7 +16,23 @@ def inicializar_usuario(usuario_id):
     return cargar_json(ruta)
 
 def procesar_entrada_usuario(usuario_id, entrada):
-    progreso = inicializar_usuario(usuario_id)
+    ruta = ruta_progreso(usuario_id)
+
+    # Si el usuario es nuevo, dar mensaje de bienvenida
+    if not os.path.exists(ruta):
+        # Creamos el progreso inicial
+        guardar_json(ruta, {
+            "modulo": 0,
+            "etapa": "inicio",
+            "indice_pregunta": 0,
+            "bienvenida_dada": True
+        })
+        return (
+            "👋 ¡Bienvenido al curso de Programación Orientada a Objetos aplicada a HTML, CSS y JavaScript!\n"
+            "Para comenzar, por favor escribe la palabra: **empezar**"
+        )
+
+    progreso = cargar_json(ruta)
     indice_modulo = progreso["modulo"]
 
     if indice_modulo >= len(modulos):
@@ -26,42 +42,51 @@ def procesar_entrada_usuario(usuario_id, entrada):
     etapa = progreso["etapa"]
     entrada = entrada.strip().lower()
 
+    # Etapa: INICIO
     if etapa == "inicio":
         if entrada == "empezar":
             progreso["etapa"] = "textos"
-            guardar_json(ruta_progreso(usuario_id), progreso)
-            return f"🎬 Video: {modulo_actual['video_url']}\n\n📚 {modulo_actual['textos'][0]}\n\n📚 {modulo_actual['textos'][1]}"
+            guardar_json(ruta, progreso)
+            return (
+                f"🎬 Video: {modulo_actual['video_url']}\n\n"
+                f"📚 {modulo_actual['textos'][0]}\n\n"
+                f"📚 {modulo_actual['textos'][1]}\n\n"
+                f"📚 {modulo_actual['textos'][2]}"
+            )
         else:
-            return "❌ Debes escribir la palabra: 'empezar'"
+            return "❌ Para comenzar, debes escribir la palabra: **empezar**"
 
+    # Etapa: TEXTOS
     elif etapa == "textos":
         if entrada == "seguir":
             progreso["etapa"] = "pregunta"
-            guardar_json(ruta_progreso(usuario_id), progreso)
+            guardar_json(ruta, progreso)
             return modulo_actual["preguntas"][0]["pregunta"]
         else:
-            return "❌ Escribe 'seguir' para continuar."
+            return "❌ Escribe la palabra **'seguir'** para continuar."
 
+    # Etapa: PREGUNTAS
     elif etapa == "pregunta":
         i = progreso["indice_pregunta"]
-        respuesta_correcta = modulo_actual["preguntas"][i]["respuesta"]
+        respuesta_correcta = modulo_actual["preguntas"][i]["respuesta"].strip().lower()
 
-        if entrada == respuesta_correcta.lower():
+        if entrada == respuesta_correcta:
             i += 1
             if i >= len(modulo_actual["preguntas"]):
                 progreso["modulo"] += 1
                 progreso["etapa"] = "inicio"
                 progreso["indice_pregunta"] = 0
-                guardar_json(ruta_progreso(usuario_id), progreso)
-                return "✅ ¡Muy bien! Has terminado este módulo. Escribe 'empezar' para continuar."
+                guardar_json(ruta, progreso)
+
+                if progreso["modulo"] >= len(modulos):
+                    return "🎉 ¡Felicitaciones! Has completado todos los módulos."
+
+                return "✅ ¡Muy bien! Has terminado este módulo.\n\nEscribe **'empezar'** para continuar con el siguiente módulo."
             else:
                 progreso["indice_pregunta"] = i
-                guardar_json(ruta_progreso(usuario_id), progreso)
+                guardar_json(ruta, progreso)
                 return modulo_actual["preguntas"][i]["pregunta"]
         else:
             return "❌ Respuesta incorrecta. Intenta de nuevo."
-
-    elif etapa == "inicio" and entrada == "siguiente modulo":
-        return "🔄 Iniciando siguiente módulo...\n\nEscribe 'empezar' para continuar."
 
     return "❌ Entrada no válida. Por favor, escribe una palabra correcta según la etapa."
