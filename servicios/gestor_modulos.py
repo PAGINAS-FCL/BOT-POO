@@ -46,7 +46,7 @@ def procesar_entrada_usuario(usuario_id, entrada):
                 f"🎬 Video: {modulo_actual['video_url']}\n\n"
                 f"📚 {modulo_actual['textos'][0]}\n\n"
                 f"📚 {modulo_actual['textos'][1]}\n\n"
-                f"📚 {modulo_actual['textos'][2]}"
+                f"NOTA: {modulo_actual['textos'][2]}"
             )
         else:
             return "❌ Para comenzar, debes escribir la palabra: **empezar**"

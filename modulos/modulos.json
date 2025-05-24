@@ -5,7 +5,7 @@
     "textos": [
       "La programación orientada a objetos (POO) es un paradigma que organiza el software usando objetos y clases.",
       "En HTML podemos preparar la estructura para que JavaScript implemente POO en las interacciones.", 
-      "Escribe seguir para continuar empezar las preguntas de este modulo."
+      "Escribe **seguir** para continuar empezar las preguntas de este modulo."
     ],
     "preguntas": [
       {
@@ -24,7 +24,7 @@
     "textos": [
       "HTML es un lenguaje de marcado que estructura contenido en la web usando etiquetas.",
       "Cada etiqueta HTML define una parte del contenido que puede ser manipulado con POO en JavaScript.", 
-      "Escribe seguir para continuar empezar las preguntas de este modulo."
+      "Escribe **seguir** para continuar empezar las preguntas de este modulo."
     ],
     "preguntas": [
       {
@@ -43,7 +43,7 @@
     "textos": [
       "CSS se usa para dar estilo y diseño a las páginas web, controlando colores, tamaños y posiciones.",
       "Aunque CSS no usa POO directamente, su organización modular facilita la mantenibilidad.", 
-      "Escribe seguir para continuar empezar las preguntas de este modulo."
+      "Escribe **seguir** para continuar empezar las preguntas de este modulo."
     ],
     "preguntas": [
       {
@@ -62,7 +62,7 @@
     "textos": [
       "JavaScript permite programar la lógica y comportamiento de páginas web de forma dinámica.",
       "En JavaScript, podemos crear clases y objetos para aplicar POO efectivamente.", 
-      "Escribe seguir para continuar empezar las preguntas de este modulo."
+      "Escribe **seguir** para continuar empezar las preguntas de este modulo."
     ],
     "preguntas": [
       {
@@ -81,7 +81,7 @@
     "textos": [
       "Una clase es una plantilla para crear objetos con propiedades y métodos.",
       "Los objetos son instancias de clases y representan entidades concretas en la aplicación.", 
-      "Escribe seguir para continuar empezar las preguntas de este modulo."
+      "Escribe **seguir****seguir** para continuar empezar las preguntas de este modulo."
     ],
     "preguntas": [
       {
@@ -100,7 +100,7 @@
     "textos": [
       "La encapsulación protege los datos internos de un objeto y expone solo lo necesario.",
       "Esto mejora la seguridad y reduce errores al limitar el acceso directo a los datos.", 
-      "Escribe seguir para continuar empezar las preguntas de este modulo."
+      "Escribe **seguir** para continuar empezar las preguntas de este modulo."
     ],
     "preguntas": [
       {
@@ -119,7 +119,7 @@
     "textos": [
       "La herencia permite que una clase derive de otra heredando propiedades y métodos.",
       "Esto facilita la reutilización de código y la creación de jerarquías.", 
-      "Escribe seguir para continuar empezar las preguntas de este modulo."
+      "Escribe **seguir** para continuar empezar las preguntas de este modulo."
     ],
     "preguntas": [
       {
@@ -138,7 +138,7 @@
     "textos": [
       "El polimorfismo permite que diferentes clases implementen métodos con el mismo nombre.",
       "Esto mejora la flexibilidad y la extensión del código.", 
-      "Escribe seguir para continuar empezar las preguntas de este modulo."
+      "Escribe **seguir** para continuar empezar las preguntas de este modulo."
     ],
     "preguntas": [
       {
@@ -157,7 +157,7 @@
     "textos": [
       "Los métodos son funciones dentro de una clase que definen comportamientos.",
       "Los atributos son variables dentro de una clase que almacenan datos del objeto.", 
-      "Escribe seguir para continuar empezar las preguntas de este modulo."
+      "Escribe **seguir** para continuar empezar las preguntas de este modulo."
     ],
     "preguntas": [
       {
@@ -176,7 +176,7 @@
     "textos": [
       "En JavaScript, se usa la palabra reservada 'class' para definir una clase.",
       "El constructor es un método especial que se llama al crear un objeto.", 
-      "Escribe seguir para continuar empezar las preguntas de este modulo."
+      "Escribe **seguir** para continuar empezar las preguntas de este modulo."
     ],
     "preguntas": [
       {
@@ -195,7 +195,7 @@
     "textos": [
       "Los objetos pueden interactuar entre sí mediante métodos.",
       "Esto permite crear sistemas complejos con componentes interconectados.", 
-      "Escribe seguir para continuar empezar las preguntas de este modulo."
+      "Escribe **seguir** para continuar empezar las preguntas de este modulo."
     ],
     "preguntas": [
       {
@@ -214,7 +214,7 @@
     "textos": [
       "Las interfaces definen contratos que las clases deben cumplir.",
       "Esto asegura que las clases implementen ciertos métodos obligatorios.", 
-      "Escribe seguir para continuar empezar las preguntas de este modulo."
+      "Escribe **seguir** para continuar empezar las preguntas de este modulo."
     ],
     "preguntas": [
       {
@@ -233,7 +233,7 @@
     "textos": [
       "Los patrones de diseño son soluciones comunes para problemas recurrentes.",
       "Ejemplos incluyen Singleton, Observador y Factoría.", 
-      "Escribe seguir para continuar empezar las preguntas de este modulo."
+      "Escribe **seguir** para continuar empezar las preguntas de este modulo."
     ],
     "preguntas": [
       {
@@ -252,7 +252,7 @@
     "textos": [
       "El principio de responsabilidad única establece que una clase debe tener una única razón para cambiar.",
       "Esto mejora la claridad y facilita el mantenimiento.", 
-      "Escribe seguir para continuar empezar las preguntas de este modulo."
+      "Escribe **seguir** para continuar empezar las preguntas de este modulo."
     ],
     "preguntas": [
       {
@@ -271,7 +271,7 @@
     "textos": [
       "La abstracción oculta detalles complejos y muestra solo lo esencial.",
       "Esto facilita el uso y comprensión de objetos.", 
-      "Escribe seguir para continuar empezar las preguntas de este modulo."
+      "Escribe **seguir** para continuar empezar las preguntas de este modulo."
     ],
     "preguntas": [
       {
@@ -290,7 +290,7 @@
     "textos": [
       "El acoplamiento bajo mejora la independencia entre clases.",
       "El alto acoplamiento dificulta los cambios y la reutilización.", 
-      "Escribe seguir para continuar empezar las preguntas de este modulo."
+      "Escribe **seguir** para continuar empezar las preguntas de este modulo."
     ],
     "preguntas": [
       {
@@ -309,7 +309,7 @@
     "textos": [
       "La cohesión se refiere a lo bien que las responsabilidades de una clase están relacionadas.",
       "Alta cohesión significa que una clase tiene responsabilidades bien definidas y relacionadas.", 
-      "Escribe seguir para continuar empezar las preguntas de este modulo."
+      "Escribe **seguir** para continuar empezar las preguntas de este modulo."
     ],
     "preguntas": [
       {
@@ -328,7 +328,7 @@
     "textos": [
       "Integrar POO con HTML, CSS y JavaScript permite crear aplicaciones web robustas y escalables.",
       "Este conocimiento es clave para desarrolladores web modernos.", 
-      "Escribe seguir para continuar empezar las preguntas de este modulo."
+      "Escribe **seguir** para continuar empezar las preguntas de este modulo."
     ],
     "preguntas": [
       {
